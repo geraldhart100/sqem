@@ -1,0 +1,16 @@
+{
+  "name": "ajv-keyword-dynamic-defaults",
+  "version": "0.0.1",
+  "description": "Partial implementation of ajv-keywords",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.24.0"
+  },
+  "devDependencies": {
+    "ajv": "^6.0.0"
+  }
+}
