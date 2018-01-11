@@ -42,3 +42,4 @@ data1 // didn't change, as all properties were defined
 - `"datetime"` - current date and time as string (ISO, valid according to date-time format)
 - `"date"` - current date as string (ISO, valid according to date format)
 - `"time"` - current time as string (ISO, valid according to time format)
+- `"shortid"` - unique random string

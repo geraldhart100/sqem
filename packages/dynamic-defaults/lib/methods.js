@@ -1,3 +1,5 @@
+const shortid = require('yiwn-shortid')
+
 const timestamp = () => Date.now()
 
 const datetime = () => (new Date).toISOString()
@@ -8,5 +10,6 @@ module.exports = {
   timestamp,
   datetime,
   date,
-  time
+  time,
+  shortid
 }

@@ -14,7 +14,8 @@ test('defaults', t => {
       ts: 'timestamp',
       dt: 'datetime',
       d: 'date',
-      t: 'time'
+      t: 'time',
+      id: 'shortid'
     }
   }
 
@@ -26,6 +27,7 @@ test('defaults', t => {
   t.is(typeof data.dt, 'string')
   t.is(typeof data.d, 'string')
   t.is(typeof data.t, 'string')
+  t.is(typeof data.id, 'string')
 
   const dataWithTS = { ts: 1 }
 
