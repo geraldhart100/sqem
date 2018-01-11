@@ -1,16 +1,18 @@
 {
   "name": "sqem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSON Schema validation with ajv",
   "main": "lib/index.js",
   "scripts": {
     "test": "ava"
   },
   "devDependencies": {
-    "ava": "^0.24.0"
+    "ava": "^0.24.0",
+    "lerna": "^2.5.1"
   },
   "dependencies": {
     "ajv": "^6.0.0",
+    "ajv-keyword-dynamic-defaults": "0.0.1",
     "monet": "^0.8.10",
     "ramda": "^0.25.0"
   },

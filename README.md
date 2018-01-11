@@ -13,6 +13,9 @@ npm install sqem
 ```json
 {
   "type": "object",
+  "dynamicDefaults": {
+    "id": "shortid"
+  },
   "properties": {
     "name": { "type": "string" },
     "age": { "type": "number" }
@@ -33,7 +36,7 @@ cast({
   size: 2
 })
 
-// > Right { name: 'Exo', age: 40 }
+// > Right { name: 'Exo', age: 40, id: 'f3ytunvu1' }
 
 cast({ size: 2 })
 
