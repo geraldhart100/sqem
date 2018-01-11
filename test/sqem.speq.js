@@ -50,3 +50,22 @@ test('results', t => {
     'http ready errors'
   )
 })
+
+test('extra keywords', t => {
+  const cast = sqem({
+    dynamicDefaults: {
+      id: 'shortid',
+      dateCreated: 'datetime'
+    }
+  })
+
+  t.is(
+    typeof cast({}).right().id,
+    'string'
+  )
+
+  t.is(
+    typeof cast({}).right().dateCreated,
+    'string'
+  )
+})

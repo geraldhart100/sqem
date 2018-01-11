@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "ajv": "^6.0.0",
+    "ajv-keyword-dynamic-defaults": "0.0.1",
     "monet": "^0.8.10",
     "ramda": "^0.25.0"
   },
